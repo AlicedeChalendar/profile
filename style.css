@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Merriweather+Sans:400,700');
+
+body {
+  background-color: #F7F7F7;
+}
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bolder;
+  color: #3E3E3F;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  color: #086375;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+
+#last-intro-line {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bolder;
+  color: #FF7200;
+  font-size: 22px;
+}
+
+a {
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background-color: #17BEBB;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #086375;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-icon {
+  font-size: 40px;
+  color: #17BEBB;
+}
+
+.social-icon:hover {
+  color: #086375;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    width: 200px;
+  }
+}
